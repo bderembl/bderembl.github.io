@@ -1,0 +1,56 @@
+# Created 2022-01-24 Mon 10:27
+#+OPTIONS: toc:nil num:nil tags:nil todo:nil ^:{} title:nil broken-links:mark
+#+OPTIONS: html-style:nil
+#+AUTHOR: Bruno Deremble
+#+KEYWORDS: geophysical fluid dyamics
+
+* Research
+I am a physical oceanographer (CNRS researcher at University Grenoble Alpes -
+IGE). The aim of my
+research is centered around several key questions that I believe to be
+of prime importance to oceanography and climate dynamics. My work
+focuses on ocean-atmosphere interactions, mesoscale structures,
+oceanic intrinsic variability, and atmospheric weather regimes. To
+address these questions, my approach is to proceed systematically from
+theory and process oriented studies to regionally embedded, fine scale
+primitive equation modeling. Specifically, my current research
+projects include:
+
+- Building and understanding the physics of a multiple scale ocean
+  model (that combines planetary and quasi-geostrophic physics),
+- Identifying and characterizing the ocean low-frequency variability
+  in idealized and realistic ocean models,
+- Understanding the eddy-topography interaction.
+
+* Course Notes
+
+** Physical oceanography M1 ENS Geosciences
+
+- [[file:data/week1.pdf][Introduction]]
+- [[file:data/week2.pdf][Force de Coriolis, ordre de grandeur et équations]]
+- [[file:data/week3.pdf][La circulation forcée par les vents]]
+- [[file:data/week4.pdf][Dynamique de la thermocline]]
+- [[file:data/week5.pdf][La formation des masses d'eau]]
+- [[file:data/week6.pdf][Impact des tourbillons océaniques]]
+- [[file:data/week7.pdf][Le courant antarctique circumpolaire]]
+- [[file:data/tp1.pdf][TP1: Modèles de Stommel et Munk]]
+- [[file:data/tp2.pdf][TP2: Atlas des tourbillons océaniques]]
+
+** Laboratory experiments MEC473 Polytechnique
+
+- [[file:data/Dossier_secu_Laser_TREX.pdf][Securite Laser]]
+- [[file:data/mec473_gfd.pdf][Elements of geophysical fluid dynamics]]
+- [[file:data/mec473_double_bucket.pdf][The double bucket method]]
+- [[file:data/mec473_gravitycurrent.pdf][Gravity current]]
+- [[file:data/mec473_rotatingtank.pdf][Rotating tank]]
+- [[file:data/mec473_cbl.pdf][Convective Boundary layer]]
+- [[file:data/mec473_bc_instability.pdf][Baroclinic instability]]
+
+** Dynamique de l'atmosphère et des océans MEC433 Polytechnique
+
+- [[file:data/PC5_ipythonnb.zip][PC5_ipythonnb.zip]]
+
+* 
+#+BIBLIOGRAPHY: biblio_web plain option:-d option:-r option:-nokeywords option:-nobibsource option:-nokeys
+
+* 

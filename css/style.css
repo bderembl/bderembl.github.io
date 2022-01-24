@@ -1,0 +1,109 @@
+@media all and (min-width: 1000px){
+    body {
+        max-width: 80%;
+        margin: auto; } }
+
+@media all and (max-width: 1000px){
+    body { margin: 1em; } }
+
+body {
+    font-family: "PT Mono"; }
+
+#contact {
+    position: absolute;
+    top: 1.2em; }
+
+@media all and (min-width: 1000px){
+    #contact { right: 10%; } }
+
+@media all and (max-width: 1000px){
+    #contact { right: 1em; } }
+
+#pgp {
+    position: absolute;
+    font-size: 0.625em;
+    top: 4.9em; }
+
+@media all and (min-width: 1000px){
+    #pgp { right: 10%; } }
+
+@media all and (max-width: 1000px){
+    #pgp { right: 1em; } }
+
+
+.header {
+    margin-top:10px;
+    overflow: hidden;
+}
+
+.photo {
+    float: left;                  
+    width: 300px;                 
+}
+
+.contactinfo {
+    float: left;                  
+    width: calc(100% - 300px);    
+}
+
+#mytitle {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.625em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray; }
+
+#address {
+    margin-top: 20px; 
+}
+
+#address ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-left: 0; 
+}
+
+#outline-container-orgheadline2 li {
+    margin: 1em;
+    list-style-type: none; }
+
+h1, h2, h3, h4 {
+    font-weight: normal; }
+
+
+#content {
+   text-align: justify;
+    color: #2e2e2e; 
+}
+
+.outline-text-3 {
+    margin-left: 2em; }
+
+h3 {
+    margin-left: 1em;
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray; }
+
+a {
+    text-decoration: none;
+    color: #4a708b; }
+
+a:hover {
+    text-decoration: underline; }
+
+.img-link a {
+    color: white; }
+
+blockquote {
+    border-left: 1px solid gray;
+    padding-left: 4px; }
+
+#doc-info {
+    margin-top: 3em;
+    margin: auto;
+    float: center;
+    text-align: center;
+    font-size: 8pt;
+    max-width: 75%; 
+}
