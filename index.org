@@ -1,8 +1,12 @@
-# Created 2022-01-24 Mon 10:27
+# Created 2023-04-27 Thu 16:54
 #+OPTIONS: toc:nil num:nil tags:nil todo:nil ^:{} title:nil broken-links:mark
 #+OPTIONS: html-style:nil
 #+AUTHOR: Bruno Deremble
 #+KEYWORDS: geophysical fluid dyamics
+
+* News
+
+- Nov. 2023: PhD position available to study oceanic convection on the Coriolis Platform (biggest rotating tank in the world). [[https://bderembl.github.io/pub/tmp/phd_coriolis.pdf][See Document]]
 
 * Research
 I am a physical oceanographer (CNRS researcher at University Grenoble Alpes -
