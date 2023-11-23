@@ -7,7 +7,7 @@
     body { margin: 1em; } }
 
 body {
-    font-family: "PT Mono"; }
+    font-family: hack;src:url("hack.ttf"); }
 
 #contact {
     position: absolute;
@@ -98,6 +98,12 @@ a:hover {
 blockquote {
     border-left: 1px solid gray;
     padding-left: 4px; }
+
+/* Biblio */
+dd {
+    display: list-item;
+    list-style-type: disc;
+    }
 
 #doc-info {
     margin-top: 3em;

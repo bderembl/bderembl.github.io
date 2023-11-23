@@ -1,8 +1,8 @@
-# Created 2023-04-27 Thu 16:54
-#+OPTIONS: toc:nil num:nil tags:nil todo:nil ^:{} title:nil broken-links:mark
-#+OPTIONS: html-style:nil
-#+AUTHOR: Bruno Deremble
-#+KEYWORDS: geophysical fluid dyamics
+# Created 2023-11-23 Thu 12:50
+#+options: toc:nil num:nil tags:nil todo:nil ^:{} title:nil broken-links:mark
+#+options: html-style:nil
+#+author: Bruno Deremble
+#+keywords: geophysical fluid dyamics
 
 * News
 
@@ -55,6 +55,7 @@ projects include:
 - [[file:data/PC5_ipythonnb.zip][PC5_ipythonnb.zip]]
 
 * 
-#+BIBLIOGRAPHY: biblio_web plain option:-d option:-r option:-nokeywords option:-nobibsource option:-nokeys
+#+bibliography: biblio_web plain option:-d option:-r option:-nokeywords option:-nobibsource option:-nokeys option:-dl
+
 
 * 
