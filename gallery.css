@@ -1,0 +1,17 @@
+/* Images for the gallery */
+
+/* Set margin-left between 0 and 70% */
+
+.gyre_turbulence {
+    background-image: url("gallery/gyre_turbulence.png");
+    p {
+        margin-left: 20%;
+    }
+}
+
+.von_karman {
+    background-image: url("gallery/karman_vortex_trex.jpg");
+    p {
+        margin-left: 60%;
+    }
+}

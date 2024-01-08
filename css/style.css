@@ -1,6 +1,6 @@
 @media all and (min-width: 1000px){
     body {
-        max-width: 80%;
+        max-width: 1000px;
         margin: auto; } }
 
 @media all and (max-width: 1000px){
@@ -9,9 +9,10 @@
 body {
     font-family: hack;src:url("/hack.ttf"); }
 
+/* position of email and pgp */
 #contact {
     position: absolute;
-    top: 1.2em; }
+    top: 7.2em; }
 
 @media all and (min-width: 1000px){
     #contact { right: 10%; } }
@@ -22,7 +23,7 @@ body {
 #pgp {
     position: absolute;
     font-size: 0.625em;
-    top: 4.9em; }
+    top: 13.9em; }
 
 @media all and (min-width: 1000px){
     #pgp { right: 10%; } }
@@ -30,6 +31,7 @@ body {
 @media all and (max-width: 1000px){
     #pgp { right: 1em; } }
 
+/* position of contact */
 
 .header {
     margin-top:10px;
@@ -37,13 +39,13 @@ body {
 }
 
 .photo {
-    float: left;                  
-    width: 300px;                 
+    float: left;
+    width: 300px;
 }
 
 .contactinfo {
-    float: left;                  
-    width: calc(100% - 300px);    
+    float: left;
+    width: calc(100% - 300px);
 }
 
 #mytitle {
@@ -54,22 +56,60 @@ body {
     border-bottom-color: lightgray; }
 
 #address {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 #address ul {
     list-style-type: none;
     margin-left: 10px;
-    padding-left: 0; 
+    padding-left: 0;
 }
+
+/* Navigation bar */
+
+.nav {
+    /* position: sticky;  */
+    top: 0;
+}
+.nav  ul {
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Main body */
+
 
 #outline-container-orgheadline2 li {
     margin: 1em;
     list-style-type: none; }
 
-h1, h2, h3, h4 {
-    font-weight: normal; }
+/* h1, h2, h3, h4 { */
+/*     font-weight: normal; } */
 
+h2 {
+    margin-top: 60px;
+
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+
+h2::before {
+  content: "# ";
+}
 
 #content {
    text-align: justify;
@@ -112,4 +152,59 @@ dd {
     text-align: center;
     font-size: 8pt;
     max-width: 75%; 
+}
+
+#bibliography h2 {
+    display: none; /* hide section name output by bibtool */
+}
+
+/* Footer */
+#footer {
+    visibility: hidden; /*  do not display but keep space */
+    /* display: none; /\* Do not display footer section name*\/ */
+
+}
+
+
+/* Gallery */
+
+@media all and (min-width: 1000px){
+    .parallax {
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left; /* no spacing between  divs*/
+
+        /* Full screen */
+        width: calc(100vw - 200px);
+        margin-left: calc(-50vw + 50% + 100px);
+    }
+}
+
+@media all and (max-width: 1000px){
+    .parallax {
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left; /* no spacing between  divs*/
+    }
+}
+
+.parallax h2{
+  color: white;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.parallax p{
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  color: white;
+  font-size: 14px;
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 10%;
 }

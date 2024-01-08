@@ -1,0 +1,34 @@
+# Created 2024-01-08 Mon 12:43
+#+options: toc:nil num:nil tags:nil todo:nil ^:{} title:nil broken-links:mark
+#+options: html-style:nil
+#+author: Bruno Deremble
+#+keywords: geophysical fluid dyamics
+
+
+* Gyre turbulence
+In enclosed basins, all ocean currents display large-scale gyres with a western
+intensification. This pattern was elucidated in the 1950s through a linear
+two-dimensional model incorporating planetary vorticity gradients. Through
+numerical experiments on a nonlinear version of this model, we illustrate the
+persistence of these low-energy gyres in a turbulence regime exhibiting a
+constant dissipation rate as viscosity approaches zero. This persistence is
+enabled by the emergence of an out-of-equilibrium vortex gas that houses the
+majority of flow energy. This vortex gas, reminiscent of oceanic weather,
+originates from instabilities in western boundary currents, efficiently
+evacuating energy from the gyres. The interplay between coats and planetary
+vorticity gradients results in a short-circuit in the ocean energy cycle
+preventing condensation of the vortex gas at the domain scale. Credit to Miller,
+Deremble, Venaille.
+
+
+* Von Kármán street
+The von Kármán street occurs when water flows past an obstacle, resulting in the
+periodic shedding of vortices. As the fluid encounters the obstacle, the
+boundary layer separates from the surface, creating a region of recirculating
+flow and vortices. This detachment of the boundary layer contributes to the
+formation of the von Kármán street, where alternating vortices are shed
+periodically on either side of the obstacle. This experiment undergoes a
+transition to turbulence when the Reynolds number gets bigger than a critical
+threshold. In this experiment, the intricate dynamics of vortex shedding in the
+wake of an obstructing body are illustrated through fluorescein visualization in
+a controlled laboratory setting. Credit to Gilbert, Bozetine.
