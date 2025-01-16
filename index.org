@@ -1,4 +1,4 @@
-# Created 2024-01-05 Fri 08:53
+# Created 2025-01-16 Thu 16:14
 #+options: toc:nil num:nil tags:nil todo:nil ^:{} title:nil broken-links:mark
 #+options: html-style:nil
 #+author: Bruno Deremble
@@ -7,6 +7,7 @@
 
 * News
 
+- Nov. 2024: Alexandre Legay's PhD defense. Congratulations Alexandre!
 - Nov. 2023: PhD position available to study oceanic convection on the Coriolis Platform (biggest rotating tank in the world). [[https://bderembl.github.io/pub/tmp/phd_coriolis.pdf][See Document]]
 
 * Research
@@ -28,7 +29,7 @@ projects include:
 - Understanding the eddy-topography interaction.
 
 * Teaching
-I am a part-time assistant professor at Ecole Polytechnique, working in the
+I am an adjunct professor at Ecole Polytechnique, working in the
 Department of Mechanics. My role involves teaching lab experiments to small
 groups of two students, focusing on environmental flows like gravity currents,
 wave propagation, plume dynamics... We explore important concepts such as
@@ -61,13 +62,22 @@ Atmosphere and Oceans" and "Boundary layer Meteorology" "at Ecole Polytechnique
 
 ** Laboratory experiments MEC473 Polytechnique
 
-- [[file:data/Dossier_secu_Laser_TREX.pdf][Securite Laser]]
 - [[file:data/mec473_gfd.pdf][Elements of geophysical fluid dynamics]]
 - [[file:data/mec473_double_bucket.pdf][The double bucket method]]
 - [[file:data/mec473_gravitycurrent.pdf][Gravity current]]
 - [[file:data/mec473_rotatingtank.pdf][Rotating tank]]
 - [[file:data/mec473_cbl.pdf][Convective Boundary layer]]
 - [[file:data/mec473_bc_instability.pdf][Baroclinic instability]]
+
+With two students, we studied viscous gravity currents and co-authored an
+article on the dynamics of lava flows. This project provided an opportunity for
+students to apply theoretical concepts and engage in scientific writing through
+hands-on research.
+
+- [[file:pub/villard.peyrin.ea_2024.pdf][Le courant de gravite en regime visqueux, by T. Villard, F. Peyrin, B. Deremble (2024)]]
+
+
+
 
 ** Dynamique de l'atmosphère et des océans MEC433 Polytechnique
 
